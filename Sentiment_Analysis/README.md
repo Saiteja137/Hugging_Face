@@ -17,22 +17,19 @@ sentiment_analysis_hugging_face.py: Main Python script (converted from Colab) co
 Tweets.csv: Input dataset file (not included, needs to be placed in the working directory).
 
 ## 🚀 How to Run
-Clone the repository.
+1.Clone the repository.
 
-Make sure you have all the required libraries installed:
+2.Make sure you have all the required libraries installed:
 
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib seaborn scikit-learn transformers torch
-Add the Tweets.csv file in the same directory.
 
-Run the script:
+command: pip install pandas numpy matplotlib seaborn scikit-learn transformers torch
 
-bash
-Copy
-Edit
-python sentiment_analysis_hugging_face.py
+
+3.Add the Tweets.csv file in the same directory.
+
+4.Run the script:
+
+command: python sentiment_analysis_hugging_face.py
 ## 📊 Features
 Pre-trained Model: Uses Hugging Face’s pipeline("sentiment-analysis")
 
@@ -40,13 +37,14 @@ Binary Classification: Filters out neutral sentiments for binary classification
 
 Performance Metrics:
 
-Accuracy
+   Accuracy
 
-Confusion Matrix
+   Confusion Matrix
 
-ROC-AUC Score
+   ROC-AUC Score
 
 ## 📈 Sample Outputs
+
 Sentiment prediction for sample sentences
 
 Distribution plot of sentiment labels
@@ -56,9 +54,11 @@ Confusion matrix heatmap
 ROC-AUC score display
 
 ## ✅ Results
+
 Achieved a reasonable accuracy and ROC-AUC score by applying a simple, pre-trained sentiment analysis pipeline directly on real-world tweets.
 
 ## 🛠️ Future Improvements
+
 Fine-tune the model on the airline dataset.
 
 Use more advanced preprocessing techniques (tokenization, cleaning).
@@ -66,4 +66,5 @@ Use more advanced preprocessing techniques (tokenization, cleaning).
 Expand classification to include neutral sentiment as a separate class.
 
 ## 📬 Contact
+
 For questions or suggestions, feel free to reach out or open an issue.
