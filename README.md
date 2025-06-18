@@ -1,4 +1,4 @@
-# Hugging_Face_Projects
+# Hugging_Face
 
 ## 1.Sentiment_Analysis
 ## 2.Speech_To_Text
